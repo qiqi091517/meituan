@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/hotel.css">
+    <link rel="stylesheet" href="../css/swiper-4.1.6.min.css">
+</head>
+
+<body>
+    <dv class="wrap">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">1</div>
+                <div class="swiper-slide">2</div>
+            </div>
+        </div>
+        <div class="content">
+            <ul>
+                <li class="address-btn">
+                    <span>目的地</span>
+                    <span>北京</span>
+                </li>
+                <li class="address-btn1">
+                    <span>搜索</span>
+                    <span>酒店</span>
+                </li>
+
+            </ul>
+            <button class="search-btn">查找酒店</button>
+        </div>
+        <div class="mask none">
+            <span class="close-btn">X</span>
+        </div>
+        <!-- 城市 -->
+        <div class="city-wrap">
+            <header>
+                <span class="close-btn">X</span>
+            </header>
+            <div class="city-list">
+                <ul class="city"> </ul>
+                <ul class="nav-list"> </ul>
+            </div>
+            <script type="text/x-handlebars-template" id="city-tpl">
+                {{#each this}}
+                <li>
+                    <h2>{{title}}</h2>
+                    <ol>
+                        {{#each list}}
+                        <li class="city-name">{{name}}</li>
+                        {{/each}}
+                    </ol>
+                </li>
+                {{/each}}
+            </script>
+            <script type="text/x-handlebars-template" id="nav-tpl">
+                {{#each this}}
+                <li>{{title}}</li>
+                {{/each}}
+            </script>
+        </div>
+        <!-- 搜索 -->
+        <div class="search-key-wrap">
+            <header class="close-btn">X</header>
+            <div class="search-key-list">
+                <ul class="search-wraps"></ul>
+            </div>
+            <script type="text/x-handlebars-template" id="search-city-tpl">
+                {{#each this}}
+                <li class="group">
+                    <div class="search-t">
+                        <h2>
+                            <img src="{{iconUrl}}" alt=""> {{title}}
+                        </h2><span class="open">展开</span>
+                    </div>
+                    <ol>
+                        {{#each items}}
+                        <li><span>{{name}}</span></li>
+                        {{/each}}
+                    </ol>
+                </li>
+                {{/each}}
+            </script>
+        </div>
+    </dv>
+
+
+    <script src="../js/libs/require.js"></script>
+    <script>
+        require(['../js/main.js'], function() {
+            require(['hotel'])
+        })
+    </script>
+</body>
+
+</html>

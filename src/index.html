@@ -7,10 +7,57 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/swiper-4.1.6.min.css">
 </head>
 
 <body>
-    qq
+    <div class="wrap">
+        <header>
+            <span>北京</span>
+            <div class="not-ipt">请输入商品</div>
+            <a class="my-btn" href="../page/login.html">我的</a>
+        </header>
+        <div class="content">
+            <!-- 轮播图 -->
+            <div class="swiper-container none">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide bad"></div>
+                    <div class="swiper-slide">2</div>
+                </div>
+                <script type="text/x-hanlebars-template" class="swiper-bars">
+                    {{#each list1}}
+                    <dl>
+                        <dt><img src="{{url}}" alt=""></dt>
+                        <dd>{{title}}</dd>
+                    </dl>
+
+                    {{/each}}
+                </script>
+            </div>
+            <!-- 三个图片 -->
+            <div class="list">
+                <dl>
+                    <dd>我们约吧</dd>
+                    <dt><img src="//p0.meituan.net/mmc/fe4d2e89827aa829e12e2557ded363a112289.png" alt=""></dt>
+                </dl>
+                <dl>
+                    <dd>我们约吧</dd>
+                    <dt><img src="//p0.meituan.net/mmc/fe4d2e89827aa829e12e2557ded363a112289.png" alt=""></dt>
+                </dl>
+                <dl>
+                    <dd>我们约吧</dd>
+                    <dt><img src="//p0.meituan.net/mmc/fe4d2e89827aa829e12e2557ded363a112289.png" alt=""></dt>
+                </dl>
+            </div>
+        </div>
+
+    </div>
+    <script src="./js/libs/require.js"></script>
+    <script>
+        require(['./js/main.js'], function() {
+            require(['index'])
+        })
+    </script>
 </body>
 
 </html>

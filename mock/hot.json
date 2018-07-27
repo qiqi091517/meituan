@@ -1,0 +1,560 @@
+{
+    "data": {
+        "reqType": 0,
+        "itemTerms": [{
+                "termLimit": 16,
+                "dataType": 0,
+                "hasMore": 0,
+                "iconUrl": "http://p1.meituan.net/codeman/06a5e485f3c73f24e3aadce0c914ff6f2084.png",
+                "title": "热门",
+                "items": [{
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "天安门广场"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "北京西站"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "北京站"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "北京南站"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "王府井"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "前门"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "南锣鼓巷"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "鸟巢"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "古北水镇"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "首都机场"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "天安门"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "西单"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "三里屯"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "北京大学"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "后海"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "清华大学"
+                    }
+                ]
+            },
+            {
+                "termLimit": 16,
+                "dataType": 8,
+                "hasMore": 0,
+                "iconUrl": "http://p1.meituan.net/codeman/a619910946ff9b2897eb7e506ee83e381154.png",
+                "title": "特色主题",
+                "items": [{
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "情侣约会"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "精品民宿"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "亲子酒店"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "精品酒店"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "交通枢纽"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "休闲度假"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "商务出行"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "温泉酒店"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "学校周边"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "复式Loft"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "别墅派对"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "购物便捷"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "主题乐园"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "免费接机"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "独特设计"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "会议酒店"
+                    }
+                ]
+            },
+            {
+                "termLimit": 16,
+                "dataType": 7,
+                "hasMore": 0,
+                "iconUrl": "http://p0.meituan.net/codeman/cd6fb8f48427c8aa33fef0ce1024f5522052.png",
+                "title": "品牌",
+                "items": [{
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "如家"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "汉庭"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "速8"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "7天"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "锦江之星"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "格林豪泰"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "布丁"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "海友"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "99优选"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "尚客优"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "全季"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "希尔顿"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "如家精选"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "国际青年旅舍"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "欣燕都"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "",
+                        "name": "宜必思"
+                    }
+                ]
+            },
+            {
+                "termLimit": 8,
+                "dataType": 3,
+                "hasMore": 1,
+                "iconUrl": "http://p1.meituan.net/codeman/a212e523154771bcf7a042b5028cc6e51965.png",
+                "title": "地铁站",
+                "items": [{
+                        "isOperate": false,
+                        "pinyin": "bei jing xi zhan",
+                        "name": "北京西站"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "bei jing zhan",
+                        "name": "北京站"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "bei jing nan zhan",
+                        "name": "北京南站"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "wang fu jing",
+                        "name": "王府井"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "qian men",
+                        "name": "前门"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "nan luo gu xiang",
+                        "name": "南锣鼓巷"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "xi dan",
+                        "name": "西单"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "wang jing",
+                        "name": "望京"
+                    }
+                ]
+            },
+            {
+                "termLimit": 8,
+                "dataType": 4,
+                "hasMore": 1,
+                "iconUrl": "http://p0.meituan.net/codeman/06de5da13c6cef75527ee282b9602a842161.png",
+                "title": "景点",
+                "items": [{
+                        "isOperate": false,
+                        "pinyin": "tian an men guang chang",
+                        "name": "天安门广场"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "wang fu jing",
+                        "name": "王府井"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "nan luo gu xiang",
+                        "name": "南锣鼓巷"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "niao chao",
+                        "name": "鸟巢"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "gu bei shui zhen",
+                        "name": "古北水镇"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "xi dan",
+                        "name": "西单"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "hou hai",
+                        "name": "后海"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "da zha lan",
+                        "name": "大栅栏"
+                    }
+                ]
+            },
+            {
+                "termLimit": 8,
+                "dataType": 6,
+                "hasMore": 1,
+                "iconUrl": "http://p1.meituan.net/codeman/3792e29ffed32a08fdc7eabade59dc6a2199.png",
+                "title": "医院",
+                "items": [{
+                        "isOperate": false,
+                        "pinyin": "bei jing da xue di yi yi yuan",
+                        "name": "北京大学第一医院"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "an zhen yi yuan",
+                        "name": "安贞医院"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "bei jing tong ren yi yuan",
+                        "name": "北京同仁医院"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "shou du yi ke da xue fu shu bei jing er tong yi yuan",
+                        "name": "首都医科大学附属北京儿童医院"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "zhong guo yi xue ke xue yuan zhong liu yi yuan",
+                        "name": "中国医学科学院肿瘤医院"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "bei jing fu wai yi yuan",
+                        "name": "北京阜外医院"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "bei jing da xue di san yi yuan",
+                        "name": "北京大学第三医院"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "zhong ri you hao yi yuan",
+                        "name": "中日友好医院"
+                    }
+                ]
+            },
+            {
+                "termLimit": 8,
+                "dataType": 5,
+                "hasMore": 1,
+                "iconUrl": "http://p0.meituan.net/codeman/5822554682be10793c61afde391f720b1850.png",
+                "title": "高校",
+                "items": [{
+                        "isOperate": false,
+                        "pinyin": "bei jing da xue",
+                        "name": "北京大学"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "qing hua da xue",
+                        "name": "清华大学"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "bei jing shi fan da xue",
+                        "name": "北京师范大学"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "zhong guo chuan mei da xue",
+                        "name": "中国传媒大学"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "bei jing ke ji da xue",
+                        "name": "北京科技大学"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "bei jing jiao tong da xue",
+                        "name": "北京交通大学"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "zhong yang yin yue xue yuan",
+                        "name": "中央音乐学院"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "zhong guo ren min da xue",
+                        "name": "中国人民大学"
+                    }
+                ]
+            },
+            {
+                "termLimit": 8,
+                "dataType": 2,
+                "hasMore": 1,
+                "iconUrl": "http://p1.meituan.net/codeman/06a5e485f3c73f24e3aadce0c914ff6f2084.png",
+                "title": "行政区/商圈",
+                "items": [{
+                        "isOperate": false,
+                        "pinyin": "bei jing xi zhan",
+                        "name": "北京西站"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "bei jing zhan",
+                        "name": "北京站"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "bei jing nan zhan",
+                        "name": "北京南站"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "wang fu jing",
+                        "name": "王府井"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "qian men",
+                        "name": "前门"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "nan luo gu xiang",
+                        "name": "南锣鼓巷"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "niao chao",
+                        "name": "鸟巢"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "gu bei shui zhen",
+                        "name": "古北水镇"
+                    }
+                ]
+            },
+            {
+                "termLimit": 16,
+                "dataType": 1,
+                "hasMore": 0,
+                "iconUrl": "http://p0.meituan.net/codeman/4555ed4afad08d90adbc6601fb6eea0a2121.png",
+                "title": "机场车站",
+                "items": [{
+                        "isOperate": false,
+                        "pinyin": "bei jing xi zhan",
+                        "name": "北京西站"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "bei jing zhan",
+                        "name": "北京站"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "bei jing nan zhan",
+                        "name": "北京南站"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "shou du ji chang",
+                        "name": "首都机场"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "bei jing nan yuan ji chang",
+                        "name": "北京南苑机场"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "shou du ji chang  t3 hang zhan lou",
+                        "name": "首都机场 T3航站楼"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "bei jing bei zhan",
+                        "name": "北京北站"
+                    },
+                    {
+                        "isOperate": false,
+                        "pinyin": "bei jing dong zhan",
+                        "name": "北京东站"
+                    }
+                ]
+            }
+        ]
+    },
+    "errorMsg": "",
+    "status": 200
+}

@@ -8,11 +8,20 @@ var clean = require("gulp-clean-css");
 
 var autoprefixer = require("gulp-autoprefixer");
 
+var querystring = require("querystring");
+
 var path = require("path");
 
 var url = require("url");
 
 var fs = require("fs");
+
+var data = require("./mock")
+
+var userlist = [{
+    username: "qq",
+    pwd: 111
+}];
 //起服务
 gulp.task('server', ["devCss"], function() {
     gulp.src("src")
@@ -24,8 +33,31 @@ gulp.task('server', ["devCss"], function() {
                 if (pathname === "/favicon.ico") {
                     return false;
                 }
-                pathname = pathname === "/" ? "index.html" : pathname;
-                res.end(fs.readFileSync(path.join(__dirname, "src", pathname)))
+                if (pathname === "/api/login") {
+                    var arr = [];
+                    req.on("data", function(chunk) {
+                        arr.push(chunk)
+                    })
+                    req.on("end", function() {
+                        var params = querystring.parse(Buffer.concat(arr).toString())
+                        console.log(params)
+                        var isHas = userlist.some(function(item) {
+                            return item.username == params.username && item.pwd == params.pwd
+                        })
+                        if (isHas) {
+                            res.end(JSON.stringify({ code: 1, msg: "登陆成功" }))
+                        } else {
+                            res.end(JSON.stringify({ code: 0, msg: "登陆失败" }))
+                        }
+                    })
+                } else if (/\/api/g.test(req.url)) {
+                    res.end(JSON.stringify({ code: 1, msg: data(req.url) }))
+
+                } else {
+                    pathname = pathname === "/" ? "index.html" : pathname;
+                    res.end(fs.readFileSync(path.join(__dirname, "src", pathname)))
+                }
+
             }
         }))
 });
